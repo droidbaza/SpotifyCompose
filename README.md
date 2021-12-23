@@ -1,8 +1,7 @@
 ![](art/header.png)
 
 # SPOTIFY COMPOSE (work in progres)
-SPOTIFY COMPOSE - its a android app written on Jetpack Compose
-and showcases the UI of the Spotify mobile app.
+SPOTIFY COMPOSE - spotify clone app built with Jetpack Compose.
 
 # TRY NOW 
 
@@ -12,3 +11,20 @@ and showcases the UI of the Spotify mobile app.
 # Preview
 ![SpotifyCompose](art/preview.gif)
 
+Created screens:
+* Home
+* Libs
+* Premium
+* Search
+* Notifications
+* Splash
+* Details
+* AddPodcasts
+* AddPersons
+* PlayerFull
+
+In progress:
+* History
+* Profile
+* Ads
+* etc.
