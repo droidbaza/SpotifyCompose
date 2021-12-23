@@ -1,7 +1,7 @@
 ![](art/header.png)
 
 # SPOTIFY COMPOSE (work in progres)
-SPOTIFY COMPOSE - spotify clone app built with Jetpack Compose.
+SPOTIFY COMPOSE - spotify ui clone app built with Jetpack Compose.
 
 # TRY NOW 
 
@@ -28,3 +28,4 @@ In progress:
 * Profile
 * Ads
 * etc.
+
