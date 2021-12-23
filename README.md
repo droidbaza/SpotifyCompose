@@ -1,4 +1,4 @@
-![](https://github.com/droidbaza/SpotifyCompose/blob/master/art/header.png)
+![](art/header.png)
 
 # SPOTIFY COMPOSE (work in progres)
 SPOTIFY COMPOSE - its a android app written on Jetpack Compose
