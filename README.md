@@ -6,7 +6,7 @@ and showcases the UI of the Spotify mobile app.
 
 # TRY NOW 
 
-[![SpotifyCompose](https://github.com/droidbaza/SpotifyCompose/blob/master/app/src/main/res/mipmap-hdpi/ic_launcher.png)](https://github.com/droidbaza/SpotifyCompose/blob/master/app/release/app-release.apk)
+[![SpotifyCompose](https://github.com/droidbaza/SpotifyCompose/blob/master/app/src/main/res/mipmap-hdpi/ic_launcher.png)](https://github.com/droidbaza/SpotifyCompose/raw/master/app/release/app-release.apk)
 👈 click icon to download
 
 # Preview
