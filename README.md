@@ -1,4 +1,4 @@
-![SpotifyCompose logo](art/banner.png?raw=true)
+![SpotifyCompose logo](art/header.png)
 
 # SPOTIFY COMPOSE (work in progres)
 SPOTIFY COMPOSE - its a android app written on Jetpack Compose
