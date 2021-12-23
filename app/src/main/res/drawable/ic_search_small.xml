@@ -1,0 +1,29 @@
+<!--
+  ~  Created by droidbaza on 23.12.2021
+  ~
+  ~  Copyright (c) 2021 . All rights reserved.
+  ~
+  ~  Licensed under the Apache License, Version 2.0 (the "License");
+  ~   you may not use this file except in compliance with the License.
+  ~  You may obtain a copy of the License at
+  ~
+  ~   http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~   Unless required by applicable law or agreed to in writing, software
+  ~   distributed under the License is distributed on an "AS IS" BASIS,
+  ~   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~   See the License for the specific language governing permissions and
+  ~   limitations under the License.
+  ~
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="30"
+    android:viewportHeight="30">
+  <path
+      android:pathData="M21.9751,21.145L28.1036,28.3365L27.0407,29.25L20.8955,22.0585C18.7807,23.664 16.4002,24.4667 13.7539,24.4667C12.1484,24.4667 10.6121,24.1539 9.1451,23.5284C7.678,22.9028 6.4158,22.0613 5.3583,21.0039C4.3009,19.9465 3.4594,18.6842 2.8339,17.2172C2.2083,15.7501 1.8956,14.2138 1.8955,12.6084C1.8955,11.0029 2.2083,9.4666 2.8339,7.9995C3.4595,6.5325 4.301,5.2702 5.3583,4.2128C6.4157,3.1554 7.6779,2.3139 9.1451,1.6884C10.6122,1.0628 12.1485,0.75 13.7539,0.75C15.3593,0.75 16.8956,1.0628 18.3627,1.6884C19.8298,2.3139 21.092,3.1554 22.1494,4.2128C23.2068,5.2702 24.0482,6.5325 24.6739,7.9995C25.2995,9.4666 25.6123,11.0029 25.6122,12.6084C25.6122,14.2581 25.2911,15.8193 24.6489,17.2919C24.0068,18.7645 23.1154,20.0489 21.975,21.1451L21.9751,21.145ZM13.754,23.0716C15.6473,23.0716 17.3967,22.6038 19.0022,21.6681C20.6077,20.7325 21.8783,19.4619 22.8139,17.8565C23.7495,16.251 24.2173,14.5016 24.2173,12.6082C24.2174,10.7149 23.7496,8.9654 22.8139,7.36C21.8782,5.7545 20.6077,4.484 19.0022,3.5484C17.3968,2.6128 15.6474,2.145 13.754,2.145C11.8606,2.145 10.1112,2.6128 8.5057,3.5484C6.9003,4.484 5.6298,5.7545 4.6942,7.36C3.7585,8.9654 3.2907,10.7149 3.2908,12.6082C3.2908,14.5016 3.7586,16.251 4.6942,17.8565C5.6297,19.4619 6.9002,20.7325 8.5057,21.6681C10.1112,22.6038 11.8607,23.0716 13.754,23.0716Z"
+      android:fillColor="#000000"
+      android:fillType="evenOdd"/>
+</vector>

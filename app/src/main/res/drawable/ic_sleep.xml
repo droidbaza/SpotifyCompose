@@ -1,0 +1,28 @@
+<!--
+  ~  Created by droidbaza on 23.12.2021
+  ~
+  ~  Copyright (c) 2021 . All rights reserved.
+  ~
+  ~  Licensed under the Apache License, Version 2.0 (the "License");
+  ~   you may not use this file except in compliance with the License.
+  ~  You may obtain a copy of the License at
+  ~
+  ~   http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~   Unless required by applicable law or agreed to in writing, software
+  ~   distributed under the License is distributed on an "AS IS" BASIS,
+  ~   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~   See the License for the specific language governing permissions and
+  ~   limitations under the License.
+  ~
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="30dp"
+    android:viewportWidth="30"
+    android:viewportHeight="30">
+  <path
+      android:pathData="M26.9325,20.7451C27.8606,19.817 28.6031,18.7917 29.1776,17.6868C24.4665,20.1529 18.5179,19.4016 14.5581,15.4418C10.5984,11.482 9.847,5.5335 12.3131,0.8224C11.2082,1.3969 10.1829,2.1393 9.2549,3.0674C4.3758,7.9465 4.3758,15.866 9.2549,20.7451C14.1339,25.6241 22.0535,25.6241 26.9325,20.7451Z"
+      android:fillColor="#000000"/>
+</vector>

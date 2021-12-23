@@ -1,0 +1,33 @@
+<!--
+  ~  Created by droidbaza on 23.12.2021
+  ~
+  ~  Copyright (c) 2021 . All rights reserved.
+  ~
+  ~  Licensed under the Apache License, Version 2.0 (the "License");
+  ~   you may not use this file except in compliance with the License.
+  ~  You may obtain a copy of the License at
+  ~
+  ~   http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~   Unless required by applicable law or agreed to in writing, software
+  ~   distributed under the License is distributed on an "AS IS" BASIS,
+  ~   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~   See the License for the specific language governing permissions and
+  ~   limitations under the License.
+  ~
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="30dp"
+    android:viewportWidth="30"
+    android:viewportHeight="30">
+  <path
+      android:pathData="M3,15C3,8.1125 8.1125,3 15,3C21.8875,3 27,8.1125 27,15C27,21.8875 21.8875,27 15,27C8.1125,27 3,21.8875 3,15ZM15,4C8.9249,4 4,8.9249 4,15C4,21.0751 8.9249,26 15,26C21.0751,26 26,21.0751 26,15C26,8.9249 21.0751,4 15,4Z"
+      android:fillColor="#000000"
+      android:fillType="evenOdd"/>
+  <path
+      android:pathData="M18.75,15C18.75,17.075 17.075,18.75 15,18.75C12.925,18.75 11.25,17.075 11.25,15C11.25,12.925 12.925,11.25 15,11.25C17.075,11.25 18.75,12.925 18.75,15ZM12,15C12,13.3431 13.3431,12 15,12C16.6569,12 18,13.3431 18,15C18,16.6569 16.6569,18 15,18C13.3431,18 12,16.6569 12,15Z"
+      android:fillColor="#000000"
+      android:fillType="evenOdd"/>
+</vector>

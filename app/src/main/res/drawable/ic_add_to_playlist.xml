@@ -1,0 +1,32 @@
+<!--
+  ~  Created by droidbaza on 23.12.2021
+  ~
+  ~  Copyright (c) 2021 . All rights reserved.
+  ~
+  ~  Licensed under the Apache License, Version 2.0 (the "License");
+  ~   you may not use this file except in compliance with the License.
+  ~  You may obtain a copy of the License at
+  ~
+  ~   http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~   Unless required by applicable law or agreed to in writing, software
+  ~   distributed under the License is distributed on an "AS IS" BASIS,
+  ~   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~   See the License for the specific language governing permissions and
+  ~   limitations under the License.
+  ~
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="30dp"
+    android:viewportWidth="30"
+    android:viewportHeight="30">
+  <path
+      android:pathData="M9.8939,20.942V13.7591H11.0285V24.1439C11.0285,26.9594 8.7379,29.25 5.9225,29.25C3.107,29.25 0.8164,26.9594 0.8164,24.1439C0.8164,21.3285 3.107,19.0379 5.9225,19.0379C7.5252,19.0379 8.9567,19.7825 9.8939,20.942ZM13.9999,5.1375L28.0488,2.1506V17.4865C27.1119,16.327 25.6808,15.5824 24.0774,15.5824C21.2619,15.5824 18.9713,17.873 18.9713,20.6885C18.9713,23.5039 21.2619,25.7945 24.0774,25.7945C26.8928,25.7945 29.1834,23.5039 29.1834,20.6885V0.75L13.9999,3.9779V5.1375ZM1.9511,24.1439C1.9511,26.3335 3.7325,28.1153 5.9225,28.1153C8.1117,28.1153 9.8939,26.3332 9.8939,24.1439C9.8939,21.9536 8.1124,20.1726 5.9225,20.1726C3.7325,20.1726 1.9511,21.9536 1.9511,24.1439ZM20.106,20.6885C20.106,22.8784 21.8874,24.6599 24.0774,24.6599C26.2666,24.6599 28.0488,22.8791 28.0488,20.6885C28.0488,18.4993 26.2673,16.7171 24.0774,16.7171C21.8874,16.7171 20.106,18.4993 20.106,20.6885Z"
+      android:fillColor="#000000"
+      android:fillType="evenOdd"/>
+  <path
+      android:pathData="M7,1C3.688,1 1,3.688 1,7C1,10.312 3.688,13 7,13C10.312,13 13,10.312 13,7C13,3.688 10.312,1 7,1ZM10,7.6H7.6V10H6.4V7.6H4V6.4H6.4V4H7.6V6.4H10V7.6Z"
+      android:fillColor="#000000"/>
+</vector>

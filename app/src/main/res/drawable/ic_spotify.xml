@@ -1,0 +1,28 @@
+<!--
+  ~  Created by droidbaza on 23.12.2021
+  ~
+  ~  Copyright (c) 2021 . All rights reserved.
+  ~
+  ~  Licensed under the Apache License, Version 2.0 (the "License");
+  ~   you may not use this file except in compliance with the License.
+  ~  You may obtain a copy of the License at
+  ~
+  ~   http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~   Unless required by applicable law or agreed to in writing, software
+  ~   distributed under the License is distributed on an "AS IS" BASIS,
+  ~   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~   See the License for the specific language governing permissions and
+  ~   limitations under the License.
+  ~
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="130dp"
+    android:height="130dp"
+    android:viewportWidth="30"
+    android:viewportHeight="30">
+  <path
+      android:pathData="M15,0.75C7.1344,0.75 0.75,7.1344 0.75,15C0.75,22.8826 7.1344,29.25 15,29.25C22.8826,29.25 29.25,22.8656 29.25,15C29.25,7.1344 22.8826,0.75 15,0.75ZM21.5206,21.3163C21.2823,21.7419 20.7375,21.8611 20.3289,21.6057C16.9579,19.5627 12.7527,19.103 7.7814,20.2437C7.3047,20.3289 6.828,20.0394 6.7258,19.5627C6.6918,19.086 6.9812,18.6093 7.4068,18.5072C12.8548,17.2643 17.5538,17.7921 21.2993,20.0905C21.7419,20.3459 21.8781,20.8907 21.6057,21.3163H21.5206ZM23.3082,17.4346C22.9677,17.9453 22.2867,18.1156 21.776,17.8091C17.9453,15.4256 12.1057,14.7446 7.5771,16.1407C7.0323,16.3109 6.3853,15.9704 6.2151,15.4086C6.0448,14.8468 6.3853,14.2168 6.9982,14.0466C12.1738,12.5143 18.6093,13.2805 23.0018,15.9194C23.5125,16.2599 23.6828,16.9409 23.3423,17.4516L23.3082,17.4346ZM23.4785,13.3826C18.8817,10.6586 11.2885,10.4032 6.8961,11.7312C6.2151,11.9525 5.5,11.5609 5.2787,10.8459C5.0574,10.1649 5.4489,9.3988 6.164,9.1774C11.2034,7.6452 19.5798,7.9516 24.8575,11.0842C25.4875,11.4588 25.7088,12.276 25.3172,12.9059C24.9767,13.5529 24.1254,13.7572 23.5125,13.3826H23.4785Z"
+      android:fillColor="#4CAF50"/>
+</vector>

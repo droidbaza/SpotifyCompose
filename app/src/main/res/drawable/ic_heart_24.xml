@@ -1,0 +1,29 @@
+<!--
+  ~  Created by droidbaza on 23.12.2021
+  ~
+  ~  Copyright (c) 2021 . All rights reserved.
+  ~
+  ~  Licensed under the Apache License, Version 2.0 (the "License");
+  ~   you may not use this file except in compliance with the License.
+  ~  You may obtain a copy of the License at
+  ~
+  ~   http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~   Unless required by applicable law or agreed to in writing, software
+  ~   distributed under the License is distributed on an "AS IS" BASIS,
+  ~   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~   See the License for the specific language governing permissions and
+  ~   limitations under the License.
+  ~
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="30dp"
+    android:viewportWidth="30"
+    android:viewportHeight="30">
+  <path
+      android:pathData="M25.9225,5.2312C23.1575,2.4662 18.8075,2.2649 15.8,4.7674C15.7975,4.7699 15.4462,5.0549 15,5.0549C14.5425,5.0549 14.2125,4.7774 14.1962,4.7649C11.1937,2.2662 6.8437,2.4662 4.0775,5.2312C1.145,8.1637 1.145,12.9337 4.045,15.8299L12.625,25.8737C13.22,26.5699 14.085,26.9699 15.0012,26.9699C15.9175,26.9699 16.7825,26.5699 17.3775,25.8737L25.9237,15.8662C28.855,12.9337 28.855,8.1637 25.9225,5.2312ZM25.005,15.0187L16.425,25.0624C15.7113,25.8987 14.2875,25.8987 13.5738,25.0624L4.96,14.9824C2.5163,12.5387 2.5163,8.5599 4.96,6.1149C6.1888,4.8874 7.7913,4.2662 9.3975,4.2662C10.8063,4.2662 12.2175,4.7437 13.3788,5.7112C13.4488,5.7712 14.07,6.3049 15,6.3049C15.9038,6.3049 16.54,5.7787 16.6025,5.7262C19.1063,3.6437 22.7325,3.8099 25.0388,6.1162C27.4838,8.5599 27.4838,12.5374 25.005,15.0187Z"
+      android:fillColor="#000000"
+      android:fillType="evenOdd"/>
+</vector>

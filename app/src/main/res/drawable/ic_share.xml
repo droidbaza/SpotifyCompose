@@ -1,0 +1,35 @@
+<!--
+  ~  Created by droidbaza on 23.12.2021
+  ~
+  ~  Copyright (c) 2021 . All rights reserved.
+  ~
+  ~  Licensed under the Apache License, Version 2.0 (the "License");
+  ~   you may not use this file except in compliance with the License.
+  ~  You may obtain a copy of the License at
+  ~
+  ~   http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~   Unless required by applicable law or agreed to in writing, software
+  ~   distributed under the License is distributed on an "AS IS" BASIS,
+  ~   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~   See the License for the specific language governing permissions and
+  ~   limitations under the License.
+  ~
+  -->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="30dp"
+    android:viewportWidth="30"
+    android:viewportHeight="30">
+  <group>
+    <clip-path
+        android:pathData="M0,0h30v30h-30z"/>
+    <path
+        android:pathData="M25.3125,9.375H22.5V11.25H24.3751V28.125H5.625V11.25H7.5V9.375H4.6875C4.1693,9.375 3.75,9.7943 3.75,10.3125V29.0625C3.75,29.5807 4.1693,30 4.6875,30H25.3125C25.8307,30 26.25,29.5807 26.25,29.0625V10.3125C26.25,9.7943 25.8307,9.375 25.3125,9.375Z"
+        android:fillColor="#000000"/>
+    <path
+        android:pathData="M14.0623,3.5889V16.875H15.9373V3.5889L19.9619,7.6135L21.2876,6.2878L14.9998,0L8.7119,6.2878L10.0376,7.6135L14.0623,3.5889Z"
+        android:fillColor="#000000"/>
+  </group>
+</vector>
