@@ -10,23 +10,3 @@ Spotify UI built with Jetpack Compose.
 
 # Preview
 ![SpotifyCompose](art/preview.gif)
-
-Created screens:
-* Home
-* Libs
-* Premium
-* Search
-* Notifications
-* Splash
-* Details
-* AddPodcasts
-* AddPersons
-* PlayerFull
-
-In progress:
-* History
-* Profile
-* Ads
-* Settings
-* etc.
-
