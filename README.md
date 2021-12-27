@@ -1,7 +1,7 @@
 ![](art/header.png)
 
 # Spotify Compose (work in progres)
-Spotify UI built with Jetpack Compose.
+ Spotify UI built with Jetpack Compose.
 
 # Try now
 
