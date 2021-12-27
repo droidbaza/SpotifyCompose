@@ -88,3 +88,37 @@ fun Modifier.color(
     }
 ```
 
+```kotlin
+/**
+ * gradient color.
+ */
+ enum class GradientType {
+        HORIZONTAL, VERTICAL, LINEAR, RADIAL, SWEEP
+    }
+    
+ fun Modifier.gradient(
+        colors: List<Color>,
+        gradientType: GradientType = GradientType.LINEAR
+    ): Modifier {
+        return this.background(
+            brush = when (gradientType) {
+                GradientType.HORIZONTAL -> {
+                    Brush.horizontalGradient(colors = colors)
+                }
+                GradientType.VERTICAL -> {
+                    Brush.verticalGradient(colors = colors)
+                }
+                GradientType.LINEAR -> {
+                    Brush.linearGradient(colors = colors)
+                }
+                GradientType.RADIAL -> {
+                    Brush.radialGradient(colors = colors)
+                }
+                GradientType.SWEEP -> {
+                    Brush.sweepGradient(colors = colors)
+                }
+            }
+        )
+    }
+```
+
