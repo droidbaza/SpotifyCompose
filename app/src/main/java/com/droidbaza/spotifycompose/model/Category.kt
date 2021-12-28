@@ -34,6 +34,9 @@ data class Category(
     companion object {
         val Default = Category(0, subtitle = "empty subtitle")
     }
+}
 
-    fun authors(): List<String> = data.map { it.title ?: "" }
+// written with solid principles(open-closed)
+fun Category.authors(): List<String> {
+    return data.map { it.title ?: "" }
 }
