@@ -40,9 +40,9 @@ import androidx.compose.ui.unit.sp
 import com.droidbaza.spotifycompose.R
 import com.droidbaza.spotifycompose.components.*
 import com.droidbaza.spotifycompose.components.core.TopBar
-import com.droidbaza.spotifycompose.tools.Ext
 import com.droidbaza.spotifycompose.tools.Ext.gradient
 import com.droidbaza.spotifycompose.tools.Ext.round
+import com.droidbaza.spotifycompose.tools.GradientTypeVertical
 import com.droidbaza.spotifycompose.tools.Sizes.MEDIUM
 
 const val DEFAULT_DESCRIPTION =
@@ -58,7 +58,7 @@ fun PlayerFullScreen() {
             .verticalScroll(scrollState)
             .gradient(
                 listOf(Color.Red, Color.Transparent, Color.Transparent),
-                Ext.GradientType.VERTICAL
+                GradientTypeVertical()
             )
     ) {
         TopBar(

@@ -42,11 +42,11 @@ import com.droidbaza.spotifycompose.R
 import com.droidbaza.spotifycompose.components.ImageCrop
 import com.droidbaza.spotifycompose.components.PremiumCard
 import com.droidbaza.spotifycompose.components.TextTitle
-import com.droidbaza.spotifycompose.tools.Ext
 import com.droidbaza.spotifycompose.tools.Ext.color
 import com.droidbaza.spotifycompose.tools.Ext.gradient
 import com.droidbaza.spotifycompose.tools.Ext.offsetY
 import com.droidbaza.spotifycompose.tools.Ext.round
+import com.droidbaza.spotifycompose.tools.GradientTypeVertical
 import com.droidbaza.spotifycompose.ui.theme.Primary
 
 
@@ -83,7 +83,7 @@ fun PremiumScreen(paddingValues: PaddingValues = PaddingValues()) {
                 Column(
                     Modifier.gradient(
                         listOf(Color.Transparent, Primary),
-                        Ext.GradientType.VERTICAL
+                        GradientTypeVertical()
                     )
                 ) {
                     Surface(

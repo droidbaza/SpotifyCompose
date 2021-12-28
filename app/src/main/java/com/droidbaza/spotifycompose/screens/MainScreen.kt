@@ -29,7 +29,6 @@ import androidx.compose.material.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
-import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
@@ -41,9 +40,9 @@ import com.droidbaza.spotifycompose.navigation.NavigationContainer
 import com.droidbaza.spotifycompose.navigation.Screen
 import com.droidbaza.spotifycompose.navigation.Router
 import com.droidbaza.spotifycompose.navigation.RouterImpl
-import com.droidbaza.spotifycompose.tools.Ext
 import com.droidbaza.spotifycompose.tools.Ext.clickableResize
 import com.droidbaza.spotifycompose.tools.Ext.gradient
+import com.droidbaza.spotifycompose.tools.GradientTypeVertical
 
 @ExperimentalFoundationApi
 @ExperimentalAnimationApi
@@ -69,7 +68,7 @@ fun MainScreen(finish: () -> Unit) {
                     modifier = Modifier
                         .gradient(
                             listOf(Color.Transparent, Color.Black),
-                            Ext.GradientType.VERTICAL
+                            GradientTypeVertical()
                         )
                         .padding(top = 20.dp)
                 ) {
