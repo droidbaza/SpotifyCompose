@@ -1,7 +1,7 @@
 ![](art/header.png)
 
 # Spotify Compose (:construction:work in progres :construction:)
- Spotify UI built with Jetpack Compose.
+ Spotify UI built with Jetpack Compose. Warning navigation extension functions used in this project is deprecated. More powerfull and valid way descripted in navigationBooster project: (https://github.com/droidbaza/NavigationBooster) 
 
 # Try now
 
@@ -13,41 +13,6 @@
 
 ## :fire::fire::fire: Useful extensions
 
-```kotlin
-/**
- * putting and getting args for navHostController.
- */
- fun <T : Any> NavHostController.putArgs(args: Pair<String, T>) {
-        val key = args.first
-        val value = args.second
-        currentBackStackEntry?.arguments?.apply {
-            when (value) {
-                is String -> putString(key, value)
-                is Int -> putInt(key, value)
-                is Short -> putShort(key, value)
-                is Long -> putLong(key, value)
-                is Byte -> putByte(key, value)
-                is ByteArray -> putByteArray(key, value)
-                is Char -> putChar(key, value)
-                is CharArray -> putCharArray(key, value)
-                is CharSequence -> putCharSequence(key, value)
-                is Float -> putFloat(key, value)
-                is Bundle -> putBundle(key, value)
-                // is Serializable -> putSerializable(key, value)
-                is Parcelable -> putParcelable(key, value)
-                else -> throw IllegalStateException("Type ${value.javaClass.canonicalName} is not supported now")
-            }
-        }
-    }
-    
-inline fun <reified T : Any> NavHostController.getArgs(tag: String): T? {
-    return try {
-        previousBackStackEntry?.arguments?.get(tag) as T?
-    } catch (ex: Exception) {
-        null
-    }
-}
-```
 
 ```kotlin
 /**
