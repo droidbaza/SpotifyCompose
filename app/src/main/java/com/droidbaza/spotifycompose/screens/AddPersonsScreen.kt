@@ -39,11 +39,11 @@ import com.droidbaza.spotifycompose.components.CardColumn
 import com.droidbaza.spotifycompose.components.SearchBar
 import com.droidbaza.spotifycompose.components.TextTitle
 import com.droidbaza.spotifycompose.repository.DataProvider
-import com.droidbaza.spotifycompose.tools.Ext
 import com.droidbaza.spotifycompose.tools.Ext.color
 import com.droidbaza.spotifycompose.tools.Ext.gradient
 import com.droidbaza.spotifycompose.tools.Ext.offsetY
 import com.droidbaza.spotifycompose.tools.Ext.round
+import com.droidbaza.spotifycompose.tools.GradientTypeVertical
 import com.droidbaza.spotifycompose.tools.Sizes
 import com.droidbaza.spotifycompose.ui.theme.Primary30
 
@@ -98,7 +98,7 @@ fun AddPersonsScreen() {
                 .align(Alignment.BottomCenter)
                 .gradient(
                     listOf(Color.Transparent, Primary30),
-                    Ext.GradientType.VERTICAL
+                    GradientTypeVertical()
                 )
         ) {
             Text(

@@ -35,7 +35,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.composed
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.scale
-import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.platform.LocalDensity
@@ -67,34 +66,12 @@ object Ext {
         return 1
     }
 
-    enum class GradientType {
-        HORIZONTAL, VERTICAL, LINEAR, RADIAL, SWEEP
-    }
-
-
+    // written with solid principles(open-closed)
     fun Modifier.gradient(
         colors: List<Color>,
-        gradientType: GradientType = GradientType.LINEAR
+        typeProperty: GradientTypeProperty = GradientTypeLinear()
     ): Modifier {
-        return this.background(
-            brush = when (gradientType) {
-                GradientType.HORIZONTAL -> {
-                    Brush.horizontalGradient(colors = colors)
-                }
-                GradientType.VERTICAL -> {
-                    Brush.verticalGradient(colors = colors)
-                }
-                GradientType.LINEAR -> {
-                    Brush.linearGradient(colors = colors)
-                }
-                GradientType.RADIAL -> {
-                    Brush.radialGradient(colors = colors)
-                }
-                GradientType.SWEEP -> {
-                    Brush.sweepGradient(colors = colors)
-                }
-            }
-        )
+        return this.background(brush = typeProperty.getGradientType(colors = colors))
     }
 
     fun Modifier.round(
